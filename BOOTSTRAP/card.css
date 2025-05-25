@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background-color: rgb(172, 206, 172);
+  background-image: url(https://cemttravel.com.au/wp-content/uploads/2023/01/services-bg.png),url(media/plane\ bg.png);
+    background-position: top right, top left;
+    background-repeat: no-repeat;
+    background-size: 140px auto;
+    opacity: 1; */
+ 
+}
+section{
+    background-color: rgb(172, 206, 172);
+    background-image: url(https://cemttravel.com.au/wp-content/uploads/2023/01/services-bg.png),url(media/plane\ bg.png);
+      background-position: top right, top left;
+      background-repeat: no-repeat;
+      background-size: 140px auto;
+      opacity: 1;
+      width: 100%;
+      margin-top: 150px;
+}
+.container{
+    margin-top: 90px;   
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    color: gray;
+    text-align: center;
+}
+
+.card{
+    height: 250px;
+    position: relative;
+    
+}
+
+
+.card-img-top{
+ height: 63px;
+ width: 63px;
+ top: -40px;
+ position: absolute;
+ /* padding-top: -40px; */
+ 
+ 
+ 
+}
+.card-body{
+    padding: 20px;
+    position: absolute;
+    margin-top: 50px;
+    
+    
+}
+.card-text{
+    color: gray;
+    /* position: absolute; */
+    text-align: left;
+    
+}
+
+/* @media (min-width:678px){
+    .card{
+        width: 100%;
+    }
+} */
+
